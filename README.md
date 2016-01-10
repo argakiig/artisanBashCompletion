@@ -6,9 +6,9 @@ Original project https://github.com/janka/artisanBashCompletion
 artisanBashCompletion
 =====================
 
-This adds bash completion for Laravel 4s artisan CLI.
+This adds bash completion for Laravel 5s artisan CLI.
 
-- Put "listForBash.php" in app/Console/Commands/ and register it in app/Console/Commands/Kernel.php under $commands as  `'App\Console\Commands\listForBash',`
+- Put "listForBash.php" in app/Console/Commands/ and register it in app/Console/Commands/Kernel.php under $commands as  `\App\Console\Commands\listForBash::class,`
 
 - Make artisan executable with `chmod +x artisan`
 
